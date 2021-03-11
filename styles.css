@@ -30,6 +30,14 @@ form > input > .type {
     font-size: larger;
     
 }
+h1 {
+    font-size: x-large;
+    color: rgb(250, 245, 243);
+}
+form > input > .box {
+    padding-left: 30px;
+}
+
 
 
 

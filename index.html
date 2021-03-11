@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>not a calculator</title>
 <link rel="stylesheet" href="styles.css">
-    <script src="script.js">
-</script>
+
 
 
 </head>
@@ -21,14 +20,24 @@
     </center>
    
 
-    <form onsubmit="">s
-        <input type="number" id="value-1">
+    <form>
+        <input type="text" id="num-one">
         <h1>+</h1>
-        <input type="number" id="value-2">
-        <input type="submit">
+        <input type="text" id="num-two">
+        <input type="submit" id="+" onsubmit="calcSum()">
+        <h2>=</h2>
+        <input type="text" id="result" onsubmit="calcSum()">
+            
+    </form>
+
+    <form> 
+        <div class="box">
+
+        </div>
     </form>
 
 
-    
+    <script src="script.js">
+    </script>
 </body>
 </html>
