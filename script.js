@@ -1,15 +1,15 @@
-var firstnum = document.getElementById("num-one").nodeValue;
-var secondnum = document.getElementById("num-two").nodeValue;
-var addvalues = document.getElementById("+").nodeValue;
-    function calcSum(){
-        let sum = Number(firstnum) + Number(secondnum).nodeValue;
-        let addvalues = sum
-        document.getElementById("result").innerText = addvalues
+function calcSum(){
+var numOne = document.getElementById("numOne").value;
+var numTwo = document.getElementById("numTwo").value;
+var answer = parseInt(numOne) + parseInt(numTwo)
+document.getElementById("answer").value = answer
 
 
-     
-     
- }
+}
+
+
+
+  
 
      
   

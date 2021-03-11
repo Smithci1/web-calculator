@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>not a calculator</title>
-<link rel="stylesheet" href="styles.css">
 
 
 
 </head>
 <body>
-        <center>
-            <div class="logo">
+      
+            <h1 class="logo">
             ..not a 
             calculator
             (.addition)
-        </div>
-    </center>
+        </h1>
+    
    
 
     <form>
-        <input type="text" id="num-one">
-        <h1>+</h1>
-        <input type="text" id="num-two">
-        <input type="submit" id="+" onsubmit="calcSum()">
-        <h2>=</h2>
-        <input type="text" id="result" onsubmit="calcSum()">
+        <input type="text" id="numOne" /> 
+        <span>+</span>
+        <input type="text" id="numTwo" /> 
+        <input type="button" value="=" onclick="calcSum()" />
+        <input type="text" id="answer">
+    </form>
+       
+
             
-    </form>
 
-    <form> 
-        <div class="box">
+    
 
-        </div>
-    </form>
-
-
-    <script src="script.js">
-    </script>
+   
 </body>
 </html>
