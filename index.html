@@ -9,23 +9,32 @@
 
 </head>
 <body>
+    <div>
+        By Chadwick Smith
+    </div>
       
             <h1 class="logo">
             ..not a 
             calculator
-            (.addition)
-        </h1>
+        
+        </h1></a>
     
    
 
     <form>
         <input type="text" id="numOne" /> 
-        <span>+</span>
-        <input type="text" id="numTwo" /> 
-        <input type="button" value="=" onclick="calcSum()" />
-        <input type="text" id="answer">
+        <select id="oPeration">
+            <option value="minus">-</option>
+            <option value="multiply">x</option>
+            <option value="divide">÷</option>
+            <option value="addition">+</option>
+        </select>
+        <input type="text" id="numTwo" />
+        <input type="button" value="=" onclick="calc()"> 
+        <input type="text" id="answer" />
     </form>
-       
+        
+    
 
             
 
