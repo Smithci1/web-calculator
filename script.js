@@ -3,18 +3,25 @@ var numOne = document.querySelector("#numOne").value;
 var numTwo = document.querySelector("#numTwo").value;
 var oPeration = document.querySelector("#oPeration").value;
 var answer;
-if (oPeration == "minus"){
+
+switch(oPeration === "minus"){
+    case true:
     answer = Number(numOne) - Number(numTwo)
-}
-else if (oPeration ==  "multiply") {
+    break;
+}switch(oPeration ==  "multiply"){
+    case true:
     answer = Number(numOne) * Number(numTwo)
-} 
-else if (oPeration == "divide") {
+    break;
+}switch(oPeration == "divide"){
+    case true:
     answer = Number(numOne) / Number(numTwo)
-}
-else if (oPeration == "addition") {
+    break;
+}switch(oPeration == "addition"){
+    case true:
     answer = Number(numOne) + Number(numTwo)
+    break;
 }
+
 
 document.querySelector("#answer").value = answer
 

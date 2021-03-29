@@ -53,6 +53,17 @@ div {
     font-family: Aquire;
     
 }
+.container {
+    justify-content: center;
+    display: flex;
+    color: black;
+    list-style: cross-fade();
+}
+.container a:hover{
+   animation-delay: 5s;
+   color: rgb(10, 10, 10);
+   
+}
 
 
 
